@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 
 let busData = {}
-app.post('/api/buses', (req, res) =>{
+app.post('/buses', (req, res) =>{
     busData = req.body
     res.json({"message": "form submitted"})
 })

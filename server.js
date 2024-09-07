@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors")
 
 const corsOptions = {
-    origin: 'https://timelytransitclient.onrender.com/',  
+    origin: 'https://timelytransitclient.onrender.com',  
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',           
     credentials: true,                                  
     allowedHeaders: 'Content-Type,Authorization'         
